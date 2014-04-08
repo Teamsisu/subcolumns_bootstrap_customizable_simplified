@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04.04.2014, 13:18:43
+    Author     : tremlma
+*/
+
+
+.ele_colsetStart .drag-handle, .ele_colsetPart .drag-handle, .ele_colsetEnd .drag-handle { display:none; }
+.ele_colsetPart .cte_type, .ele_colsetEnd .cte_type { display: none; }
+
+.ele_colsetStart .rows { display: inline-block; background-color:#DFDFDF; padding: 5px 3px; margin-left: 4px;}
+.ele_colsetStart .row { float:left; background-color:#FFF; border: 1px dashed #999999; width:20px; height:40px; margin:0px 3px; }
+.ele_colsetStart .countText { display: inline-block; margin-bottom:5px; }
+
+.ele_colsetPart .tl_content_right a:first-child { display:none; }
+.ele_colsetPart { background-color:#8AB858 !important; height:18px; padding: 3px 6px; }
+.ele_colsetPart .limit_toggler { display: none; }
+.ele_colsetPart .limit_height { height: auto !important; }
+.ele_colsetPart .sc_hint { color: #FFF ; line-height: 18px; }
+.sc_hint.end { margin-left:4px; font-size:10px; color:#999999; }
+.customSubcolumns.indent { margin: 0px 4px; margin-bottom: -5px; }
+.ele_colsetEnd { border-bottom: 10px solid #fff; }

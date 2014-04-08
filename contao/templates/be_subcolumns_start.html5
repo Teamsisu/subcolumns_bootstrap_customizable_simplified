@@ -1,0 +1,12 @@
+
+<div class="rows">
+    <?php for($i=0;$i<$this->rowCount;$i++): ?>
+        <div class="row"></div>
+    <?php endfor; ?>
+</div>
+<div class="countText"><?php echo $this->rowCount; ?>-spaltig</div>
+<div class="customSubcolumns indent">
+    <div class="ele_colsetPart">
+        <div class="sc_hint"><?php echo $this->hint; ?></div>
+    </div>
+</div>

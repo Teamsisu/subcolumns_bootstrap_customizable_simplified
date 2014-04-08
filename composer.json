@@ -1,0 +1,35 @@
+
+{
+    "name": "teamsisu/subcolumns_bootstrap_customizable_simplified",
+    "description": "simplifies the backend view of the subcolumns extension",
+    "keywords": ["contao", "bootstrap", "subcolumns"],
+    "type": "contao-module",
+    "homepage": "http://www.teamsisu.at",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Martin Treml",
+            "homepage": "http://www.teamsisu.at",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Teamsisu/subcolumns_bootstrap_customizable_simplified/issues",
+        "irc": "irc://irc.freenode.org/contao.dev",
+        "source": "https://github.com/Teamsisu/subcolumns_bootstrap_customizable_simplified",
+        "forum": "https://community.contao.org/de/forumdisplay.php?119-Sonstige-Erweiterungen"
+    },
+    "require": {
+        "php": ">=5.3",
+        "contao/core": ">=3,<4",
+        "contao-community-alliance/composer-installer": "*",
+        "mrtool/contao-multiplecallbacks": "*"
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "contao": "system/modules/subcolumns_bootstrap_customizable_simplified"
+            }
+        }
+    }
+}

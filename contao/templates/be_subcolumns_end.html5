@@ -1,0 +1,1 @@
+<div class="sc_hint end"><?php echo $this->hint; ?></div>
